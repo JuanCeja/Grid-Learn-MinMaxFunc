@@ -5,8 +5,15 @@
     border: 2px solid green;
 
     display: grid;
-    grid-template-rows: repeat(2, 150px);
-    grid-template-columns: max-content 1fr 1fr max-content;
+
+    // ----- USING MIN-CONTENT AND MAX-CONTENT ------
+    // grid-template-rows: repeat(2, 150px);
+    // grid-template-columns: max-content 1fr 1fr min-content;
+    // grid-template-rows: repeat(2, min-content);
+
+    // ------- USING MINMAX FUNCTION -------
+    grid-template-rows: repeat(2, minmax(150px, min-content));
+    grid-template-columns: minmax(200px, 300px) repeat(3, 1fr);
 
 
     .item {
