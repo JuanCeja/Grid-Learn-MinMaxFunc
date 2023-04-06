@@ -5,7 +5,7 @@
   border: 2px solid green;
   display: grid;
   grid-template-rows: repeat(2, 150px);
-  grid-template-columns: max-content 1fr 1fr min-content;
+  grid-template-columns: max-content 1fr 1fr max-content;
 }
 .container .item {
   padding: 10px;
