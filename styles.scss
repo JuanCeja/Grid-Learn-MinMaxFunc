@@ -6,6 +6,7 @@
 
     display: grid;
     grid-template-rows: repeat(2, 150px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
 
     .item {

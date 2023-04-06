@@ -5,6 +5,7 @@
   border: 2px solid green;
   display: grid;
   grid-template-rows: repeat(2, 150px);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .container .item {
   padding: 10px;
