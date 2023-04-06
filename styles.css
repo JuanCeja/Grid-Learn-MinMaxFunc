@@ -4,8 +4,9 @@
   background-color: #ddd;
   border: 2px solid green;
   display: grid;
+  width: 90%;
   grid-template-rows: repeat(2, minmax(150px, min-content));
-  grid-template-columns: minmax(200px, 300px) repeat(3, 1fr);
+  grid-template-columns: minmax(200px, 50%) repeat(3, 1fr);
 }
 .container .item {
   padding: 10px;
